@@ -32,3 +32,12 @@ body{
     margin: 20px 30px;
     font-size: 120%;
 }
+
+
+.hide{
+    display: none;
+}
+
+.ans-select{
+    border: 1px solid purple;
+}
