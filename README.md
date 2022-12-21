@@ -1,108 +1,151 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Ó'Cinnéde Drioglann (Kennedy's Distillery)
+Ó’Cinnede Drioglann is a website that is designed to showcase our products. the site is targeted towards retailers, who would buy our products to sell in their own bar/ off licence. This site aims to explain the story of the journey so far.
+ 
 
-Welcome Dec1an-Kennedy,
+![Responsice Mockup](https://dec1an-kennedy.github.io/my-pp1/)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Features 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-## Gitpod Reminders
+### Existing Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+- __Navigation Bar__
 
-`python3 -m http.server`
+  - Featured on all three pages, the full responsive navigation bar includes a link to Home page, Products, Our Story and Contact Us page and is identical in each page to allow for easy navigation.
+  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-A blue button should appear to click: _Make Public_,
+![Nav Bar]<img src="assets/images/header.">
 
-Another blue button should appear to click: _Open Browser_.
+- __The landing page image__
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+  - The landing includes a photograph with text overlay to allow the user to see exactly what this site is all about. 
+  - This section introduces the user to Kennedy's Distillery and invites them to learn more about us and our products.
 
-A blue button should appear to click: _Make Public_,
+![Landing Page]<img src="asstes/images/landing-page.png">
 
-Another blue button should appear to click: _Open Browser_.
+- __Clients__
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+  - The clients section allows the viewer to see who some of our loyal clients are, to make them feel abit better about buying our product as big bars already buy our drink. 
+  - This user will see the value of our product and will hopfully get in touch to either ask us questions or order our produce.
 
-To log into the Heroku toolbelt CLI:
+![Clients]<img src="assets/images/clients.png">
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- __Meetup Declan__
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+  - This section will allow the user to learn more about our master distiller Declan Kennedy. It will hopefully allow them to connect with us on a better level.
+   
 
-------
+![Meetup Declan]<img src="assets/images/meet.png">
 
-## Release History
+- __The Footer__ 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+  - The footer section includes links to the relevant social media sites for Kennedy's Distillery. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer is valuable to the user as it encourages them to keep connected via social media
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+- __Products__
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+  - The gallery will provide the user with supporting images to see what the meet ups look like. 
+  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+- __Our Story Page__
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+  - This page will allow the user to get to know our company and what inspired us to set-up our business, this page also aims to show the hard work we have put in but also show the work and care we are and willing to put into our products.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+  - __Contact Us Page__
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+  -This page allows the user to have the option to get in touch with us to ask us any questions or concerns, we also provide them with our address and contact number so they can visit the distillery, to see the devoted work that we put in.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Features Left to Implement
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+- Another feature idea that in would have liked to implement would be an age restriction pop-up for the website as in Ireland you must be a minimum age of 18 to buy alcahol.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+## Testing 
 
-------
+I tested the website reponsivness using four different devices.Those devices are as follows
 
-## FAQ about the uptime script
+-Razer Blade 15 laptop
+-M1 Macbook pro(standard laptop screen and also displayed up onto a 21 inch monitor)
+-Iphone 11 Pro
+-Ipad Air 4
 
-**Why have you added this script?**
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+### Validator Testing 
 
-**How will this affect me?**
+- HTML
+  - Home no errors were found[W3C validator]( https://validator.w3.org/nu/#textarea)
+  - Products 1 error was found [W3C validator]( https://validator.w3.org/nu/#textarea)
+  - Our Story 2 errors were found [W3C validator]( https://validator.w3.org/nu/#textarea)
+  - Contact us no errors were found [W3C validator]( https://validator.w3.org/nu/#textarea)
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+- CSS
+  - Style.css 2 errors were found [(W3) validator](https://validator.w3.org/nu/#textarea
+)
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+### Lighthouse Testing
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+<details><summary>Home</summary>
+<img src="assets/images/home-lighthouse.png">
+</details>
+<details><summary>Products</summary>
+<img src="assets/images/product-lighthouse.png">
+</details>
+<details><summary>Our Story</summary>
+<img src="assets/images/our-story-lighthouse.png">
+</details>
+<details><summary>Contact Us</summary>
+<img src="assets/images/contact-us-lighthouse.png">
+</details>
 
-**So….?**
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
 
-**Can I opt out?**
+### Wireframes
+-The wireframes and the finished project have some differences, this is because as i went along i realised i could implement more features and in a neater design. These are the original wireframes
+<details><summary>Home</summary>
+<img src="assets/images/home-wireframe.png">
+</details>
+<details><summary>Products</summary>
+<img src="assets/images/product-wireframe.png">
+</details>
+<details><summary>Our Story</summary>
+<img src="assets/images/our-story-wireframe.png">
+</details>
+<details><summary>Contact Us</summary>
+<img src="assets/images/contact-wireframe.png">
+</details>
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
 
-**Anything more?**
+### Unfixed Bugs
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+I ran into difficulty when making the header and some text responsive. i was unable to make this part responsive.
 
----
+## Deployment
 
-Happy coding!
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+The live link can be found here - https://dec1an-kennedy.github.io/my-pp1/ 
+
+
+## Credits 
+
+- https://www.w3schools.com/
+- https://www.youtube.com/watch?v=ZYV6dYtz4HA
+- https://www.motor1.com/news/606090/bentley-macallan-horizon-bottle/
+- Adobe Photoshop
+### Content 
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+
+### Media
+
+- The photos used on the home page are from https://unsplash.com
+- The images used for the gallery page were taken from https://pxhere.com
+
