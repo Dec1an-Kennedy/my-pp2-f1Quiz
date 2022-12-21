@@ -10,3 +10,10 @@ body{
     height: 100vh;
 }
 
+.container{
+    background-color: slategrey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid red;
+    box-shadow: 0 0 15px 5px;
+}
+
