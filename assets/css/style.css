@@ -8,12 +8,31 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    width: 100vw;
 }
 
 .container{
+    width: 700px;
+    max-width: 70%;
     background-color: slategrey;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border: 1px solid red;
     box-shadow: 0 0 15px 5px;
 }
 
+.ans-btn{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+}
+
+.btn{
+    font-weight: bold;
+    padding: 20px;
+    margin-left: 50px;
+}
+
+.score-section{
+    display: block;
+    margin: 20px 30px;
+    font-size: 120%;
+}
