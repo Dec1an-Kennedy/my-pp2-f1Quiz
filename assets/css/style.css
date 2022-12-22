@@ -98,16 +98,13 @@ h1{
 
     h1{
         width:100%;
+        margin-right: 80px;
         margin-top: 10px;
         text-align: center;
         
     }
 
-    .heading{
-        padding-left: 50px;
-        margin: 0 auto;
-        
-    }
+    
 
     .f1-img{
         width: 100%;
@@ -123,9 +120,13 @@ h1{
    
 }
 
+.hide{
+    display: none;
 }
 
-@media screen and (max-width: 667px){
+}
+
+@media screen and (max-width: 1366px){
 
 
     body{
@@ -136,23 +137,21 @@ h1{
     }
 
     h1{ 
-        margin-top: 10px;
-        margin-left: 150px;
+        margin-top: 100px;
+        margin-left: 300px;
         box-shadow: 0 0 3px 2px red;
         
     }
 
     .f1-img{
+        width: 60%;
         height: 100px;
-        padding-top: 10px;
+        padding-top: 20px;
 }
 
 .container{
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
+    margin-top: 100px;
+   margin-left: 300px;
 }
 
 .score-section{
@@ -160,7 +159,17 @@ h1{
     font-weight: 300;
     width: 50%;
     box-shadow: 0 0 3px 2px red;
-    margin-left: 150px;
+    margin-top: 100px;
+    margin-left: 310px;
     
 }
+
+.hide{
+    display: none;
+}
+
+
+
+
+
 }
