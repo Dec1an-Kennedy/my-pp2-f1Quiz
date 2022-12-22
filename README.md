@@ -15,7 +15,7 @@ In this section, you should go over the different parts of your project, and des
   - Featured on all three pages, the full responsive navigation bar includes a link to Quiz 1, Quiz 2 and Quiz 3 page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from quiz to quiz across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar]<img src="assets/images/nav-bar">
+![Nav Bar]<img src="assets/images/nav-bar.png">
 
 - __The landing page image__
 
