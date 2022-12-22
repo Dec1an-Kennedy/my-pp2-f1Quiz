@@ -165,11 +165,13 @@ h1{
 
 
 
+
+
 }
 
 @media screen and (max-width: 390px){
     h1{
-       margin-left: 80px; 
+       margin-left: 5px; 
        margin-top: 80px;
     }
 
@@ -182,5 +184,11 @@ h1{
    }
    h1, .score-section{
     width: 150px;
+   }
+
+   .heading{
+    margin-left: 5%;
+    width: 90%;
+    font-size: 100%;
    }
 }
