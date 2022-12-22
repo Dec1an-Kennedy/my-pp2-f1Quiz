@@ -17,12 +17,15 @@ In this section, you should go over the different parts of your project, and des
 
 ![Nav Bar]<img src="assets/images/nav-bar.png">
 
-- __The landing page image__
+- __The quiz__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly what this site is all about. 
-  - This section introduces the user to Kennedy's Distillery and invites them to learn more about us and our products.
-
-![Landing Page]<img src="asstes/images/landing-page.png">
+  - The quiz includes a start button to allow the user to start the game. 
+  - The quiz then begains by showing a question and showing 2 possaible answers.
+  - Once answer is clicked it will be selected and the next button will appear.
+  - After you picked your answer and have clicked next it will submit your answer and load the next question.
+![Quiz Features]<img src="asstes/images/start-button.png">
+<img src="asstes/images/answers.png">
+<img src="asstes/images/next-button.png">
 
 - __Clients__
 
@@ -36,28 +39,11 @@ In this section, you should go over the different parts of your project, and des
   - This section will allow the user to learn more about our master distiller Declan Kennedy. It will hopefully allow them to connect with us on a better level.
    
 
-![Meetup Declan]<img src="assets/images/meet.png">
-
-- __The Footer__ 
-
-  - The footer section includes links to the relevant social media sites for Kennedy's Distillery. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
 
 
 
-- __Products__
-
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
 
 
-- __Our Story Page__
-
-  - This page will allow the user to get to know our company and what inspired us to set-up our business, this page also aims to show the hard work we have put in but also show the work and care we are and willing to put into our products.
-
-  - __Contact Us Page__
-
-  -This page allows the user to have the option to get in touch with us to ask us any questions or concerns, we also provide them with our address and contact number so they can visit the distillery, to see the devoted work that we put in.
 
 
 
