@@ -12,10 +12,10 @@ In this section, you should go over the different parts of your project, and des
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes a link to Home page, Products, Our Story and Contact Us page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - Featured on all three pages, the full responsive navigation bar includes a link to Quiz 1, Quiz 2 and Quiz 3 page and is identical in each page to allow for easy navigation.
+  - This section will allow the user to easily navigate from quiz to quiz across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar]<img src="assets/images/header.">
+![Nav Bar]<img src="assets/images/nav-bar">
 
 - __The landing page image__
 
