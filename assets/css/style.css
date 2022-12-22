@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
 }
+/* Headings and images */
 
 .heading{
     padding-left: 30px;
@@ -17,6 +18,22 @@
     width: 100%;
     height: 100px;
 }
+
+h1{
+    max-width: 50%;
+    color: red;
+    
+}
+.f1-img{
+    width:80%;
+    margin-left: 10%;
+    margin-top: 30px;
+    height: 150px;
+    padding-right: 20px;
+    padding-top: 5px;
+}
+
+/* Body and navigation links */
 
 body{
     margin: 0;
@@ -44,12 +61,8 @@ body{
 }
 
 
-h1{
-    max-width: 50%;
-    color: red;
-    
-}
 
+/* Quiz content */
 
 
 .container{
@@ -77,6 +90,8 @@ h1{
     align-items: center;
 }
 
+
+/*Score chart */
 .score-section{
     display: block;
     margin-left: 400px;
@@ -90,6 +105,7 @@ h1{
     
 }
 
+/*javascript class add */
 
 .hide{
     display: none;
@@ -101,20 +117,15 @@ h1{
 
 
 
-.f1-img{
-    width:80%;
-    margin-left: 10%;
-    margin-top: 30px;
-    height: 150px;
-    padding-right: 20px;
-    padding-top: 5px;
-}
+
 
 #score{
     color: green;
 }
 
 
+
+/* responsive max width 1366px wide */
 
 @media screen and (max-width: 1366px){
 
@@ -162,12 +173,9 @@ h1{
 }
 
 
-
-
-
-
-
 }
+
+/* responsive 390px wide */
 
 @media screen and (max-width: 390px){
     h1{
