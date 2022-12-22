@@ -1,51 +1,89 @@
-const startButton = document.getElementById('start-game-btn')
-const nextButton = document.getElementById('next-game-btn')
-const questionArea = document.getElementById('question-section')
-const answerButton = document.getElementById('answer-btn')
-var quizQuestions = [
+const startButton = document.getElementById('start-game-btn'); 
+const nextButton = document.getElementById('next-game-btn');
+const questionArea = document.getElementById('question-section');
+const answerButtonOne = document.getElementById('answer-btn');
+const answerButtonTwo = document.getElementById('answer-btn2');
+const questionoOne = [
 	{
-		question: "What is 10/2?",
-		answers: {
-			a: '3',
-			b: '5',
-			c: '115'
-		},
-		correctAnswer: 'b'
+		question:'who won he 2021 drivers championship?',
+		answer: [
+			{text:'Max Verstappen', correct: true},
+			{text: 'Lewis Hamilton', correct: false}
+		]
 	},
+
 	{
-		question: "What is 30/3?",
-		answers: {
-			a: '3',
-			b: '5',
-			c: '10'
-		},
-		correctAnswer: 'c'
+		question:'who drives car number 55?',
+		answer: [
+			{text:'Lando Norris', correct: false},
+			{text: 'Carlos Sainz', correct: true}
+		]
+	},
+
+	{
+		question:'What nationality is Toto Wolff?',
+		answer: [
+			{text:'German', correct: false},
+			{text: 'Austrian', correct: true}
+		]
+	},
+
+	{
+		question:'How many world championships has Fernando Alonso won?',
+		answer: [
+			{text:'2', correct: true},
+			{text: '4', correct: false}
+		]
+	},
+
+	{
+		question:'Who was the team principal for Ferrari in 2022?',
+		answer: [
+			{text:'Mattia Binotto', correct: true},
+			{text: 'Fred Vasseur', correct: false}
+		]
 	}
 ];
 
 
 
-startButton.addEventListener('click', startGame)
+startButton.addEventListener('click', startGame);
 
 
 function startGame(){
-    startButton.classList.add('hide')
-    questionArea.classList.remove('hide')
-    showQuestions()
+    startButton.classList.add('hide');
+    questionArea.classList.remove('hide');
+	currentGameIndex = 0;
+    showQuestions();
 }
 
 function showQuestions(){
-    
+	questionOne.innerText = question.question;
+	question.answers.forEach(answer => {
+		const button = document.createElement('button');
+		button.innerText = answer.text;
+		button.classList.add('btn');
+		if (answer.correct) {
+		  button.dataset.correct = answer.correct;
+		}
+		button.addEventListener('click', selectAnswer);
+		answerButtonsElement.appendChild(button);
+	  })
 }
 
-answerButton.addEventListener('click', selectedAnswer)
+answerButtonOne.addEventListener('click', selectedAnswer);
+answerButtonTwo.addEventListener('click', selectedAnswer);
+
 
 function selectedAnswer(){
-    answerButton.classList.add('ans-select')
-    nextButton.classList.remove('hide')
+    answerButtonOne.classList.add('ans-select');
+	answerButtonTwo.classList.add('ans-select');
+    nextButton.classList.remove('hide');
+	const selectedButton = e.target
+  const correct = selectedButton.dataset.correct
 }
 
-nextButton.addEventListener('click', nextQuestion)
+nextButton.addEventListener('click', nextQuestion);
 
 function nextQuestion(){
     resetState()
@@ -60,6 +98,6 @@ function incrementWrongAnswer(){
 }
 
 function resetState(){
-	nextButton.classList.add('hide')
-	answerButton.classList.remove('ans-select')
+	nextButton.classList.add('hide');
+	answerButton.classList.remove('ans-select');
 }
