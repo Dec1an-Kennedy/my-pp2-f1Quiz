@@ -21,9 +21,10 @@ In this section, you should go over the different parts of your project, and des
   - The quiz then begains by showing a question and showing 2 possaible answers.
   - Once answer is clicked it will be selected and the next button will appear.
   - After you picked your answer and have clicked next it will submit your answer and load the next question.
-![Quiz Features]<img src="asstes/images/start-button.png">
-<img src="asstes/images/answers.png">
-<img src="asstes/images/next-button.png">
+![Quiz Features]
+<img src="/workspace/my-pp2-f1Quiz/assets/images/start-button.png">
+<img src="/workspace/my-pp2-f1Quiz/assets/images/answers.png">
+<img src="/workspace/my-pp2-f1Quiz/assets/images/next-button.png">
 
 ### Features Left to Implement
 
