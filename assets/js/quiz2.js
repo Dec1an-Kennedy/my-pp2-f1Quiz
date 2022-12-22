@@ -5,42 +5,42 @@ const answerButton = document.getElementById('answer-btn')
 const answerButtonTwo = document.getElementById('answer-btn2')
 const questionTwo = [
 	{
-		question:'who won he 2021 drivers championship?',
+		question:'what was the most recent season to have 11 teams compete?',
+		answer: [
+			{text:'2016', correct: true},
+			{text: '2018', correct: false}
+		]
+	},
+
+	{
+		question:'who was world drivers champion in 2006?',
+		answer: [
+			{text:'Sebastian Vettle', correct: false},
+			{text: ' Fernando Alonso', correct: true}
+		]
+	},
+
+	{
+		question:'How many points do you get for winning a rtace?',
+		answer: [
+			{text:'25', correct: true},
+			{text: '20', correct: false}
+		]
+	},
+
+	{
+		question:'who won the 2022 Spanish Gp?',
 		answer: [
 			{text:'Max Verstappen', correct: true},
-			{text: 'Lewis Hamilton', correct: false}
+			{text: 'Charles Leclerc', correct: false}
 		]
 	},
 
 	{
-		question:'who drives car number 55?',
+		question:'whoi was World drivers champion in 2008?',
 		answer: [
-			{text:'Lando Norris', correct: false},
-			{text: 'Carlos Sainz', correct: true}
-		]
-	},
-
-	{
-		question:'What nationality is Toto Wolff?',
-		answer: [
-			{text:'German', correct: false},
-			{text: 'Austrian', correct: true}
-		]
-	},
-
-	{
-		question:'How many world championships has Fernando Alonso won?',
-		answer: [
-			{text:'2', correct: true},
-			{text: '4', correct: false}
-		]
-	},
-
-	{
-		question:'Who was the team principal for Ferrari in 2022?',
-		answer: [
-			{text:'Mattia Binotto', correct: true},
-			{text: 'Fred Vasseur', correct: false}
+			{text:'Lewis Hamilton', correct: true},
+			{text: 'Fernando Alonso', correct: false}
 		]
 	}
 ]

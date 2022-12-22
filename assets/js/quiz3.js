@@ -5,31 +5,31 @@ const answerButton = document.getElementById('answer-btn')
 const answerButtonTwo = document.getElementById('answer-btn2')
 const questionThree = [
 	{
-		question:'who won he 2021 drivers championship?',
+		question:'Williams recently extended the contract on which driver?',
 		answer: [
-			{text:'Max Verstappen', correct: true},
-			{text: 'Lewis Hamilton', correct: false}
+			{text:'Nicholas Latifi', correct: false},
+			{text: 'Alex Albon', correct: true}
 		]
 	},
 
 	{
-		question:'who drives car number 55?',
+		question:'who was Lewis Hamiltons teammate when he made his debut?',
 		answer: [
-			{text:'Lando Norris', correct: false},
-			{text: 'Carlos Sainz', correct: true}
+			{text:'Jenson Button', correct: false},
+			{text: 'Fernando Alonso', correct: true}
 		]
 	},
 
 	{
-		question:'What nationality is Toto Wolff?',
+		question:'How many points do you get for finishing 7th?',
 		answer: [
-			{text:'German', correct: false},
-			{text: 'Austrian', correct: true}
+			{text:'4', correct: false},
+			{text: '6', correct: true}
 		]
 	},
 
 	{
-		question:'How many world championships has Fernando Alonso won?',
+		question:'How many f1 podiums does Albon have?',
 		answer: [
 			{text:'2', correct: true},
 			{text: '4', correct: false}
@@ -37,10 +37,10 @@ const questionThree = [
 	},
 
 	{
-		question:'Who was the team principal for Ferrari in 2022?',
+		question:'Who was on pole for the 2022 British Gp?',
 		answer: [
-			{text:'Mattia Binotto', correct: true},
-			{text: 'Fred Vasseur', correct: false}
+			{text:'Carlos Sainz', correct: true},
+			{text: 'Max Verstappen', correct: false}
 		]
 	}
 ]
