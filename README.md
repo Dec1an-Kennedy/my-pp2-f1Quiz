@@ -1,5 +1,5 @@
-# Ó'Cinnéde Drioglann (Kennedy's Distillery)
-Ó’Cinnede Drioglann is a website that is designed to showcase our products. the site is targeted towards retailers, who would buy our products to sell in their own bar/ off licence. This site aims to explain the story of the journey so far.
+# Formula One Quiz
+This formula one quiz has varius different basic questions to test your formula one knowlage.
  
 
 ![Responsice Mockup](https://dec1an-kennedy.github.io/my-pp1/)

@@ -43,6 +43,10 @@ h1{
 }
 
 
+.active{
+    text-transform: underline;
+}
+
 .btn{
     font-weight: bold;
     padding: 20px;
